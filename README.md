@@ -27,7 +27,7 @@ We use the **California Housing Dataset** from Scikit-learn and evaluate perform
 🚀 Installation & Usage
 🔹 1️⃣ Clone the Repository
   
-    git clone https://github.com/yourusername/House_Price_Prediction.git
+    git clone https://github.com/SALVABEHNAM/House_Price_Prediction.git
     cd House_Price_Prediction
 🔹 2️⃣ Install Dependencies
   
