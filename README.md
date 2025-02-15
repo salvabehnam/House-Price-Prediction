@@ -9,8 +9,23 @@ We use the **California Housing Dataset** from Scikit-learn and evaluate perform
 - **Modular Code (Train, Predict, Visualize)**
 
 ## 📂 Project Structure
-  House_Price_Prediction/ │── README.md # Project Documentation │── requirements.txt # Dependencies List │── house_price_prediction.ipynb # Jupyter Notebook Version │ ├── data/ # Dataset (User Must Generate) │ ├── california_housing.csv │ ├── models/ # Folder for Trained Model (Not Uploaded) │ ├── random_forest_model.pkl # User Must Train │ ├── src/ # Python Scripts │ ├── train_model.py # Model Training Script │ ├── predict.py # Prediction Script │ ├── visuals/ # Graphs & Visualizations │ ├── feature_importance.png
-
+    House_Price_Prediction/
+    ├── README.md                  
+    ├── requirements.txt            
+    │
+    ├── data/                        
+    │   ├── california_housing.csv
+    │
+    ├── models/                      # Folder for Trained Model (Not Uploaded)
+    │   ├── random_forest_model.pkl  # User Must Train
+    │
+    ├── src/                         
+    │   ├── train_model.py          
+    │   ├── predict.py            
+    │
+    └── visuals/                  
+        ├── feature_importance.png
+      
 ## 📊 Dataset
 - The dataset used is **California Housing Data** from Scikit-learn.
 - Users must generate the dataset by running:
