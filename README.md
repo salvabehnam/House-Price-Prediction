@@ -24,29 +24,30 @@ We use the **California Housing Dataset** from Scikit-learn and evaluate perform
   df.to_csv("data/california_housing.csv", index=False)
 
   print("Dataset saved as data/california_housing.csv")
-🚀 Installation & Usage
-🔹 1️⃣ Clone the Repository
-  
-    git clone https://github.com/SALVABEHNAM/House_Price_Prediction.git
-    cd House_Price_Prediction
-🔹 2️⃣ Install Dependencies
-  
-    pip install -r requirements.txt
-
-🔹 3️⃣ Generate Dataset
+## 🚀 Installation & Usage
+  🔹 1️⃣ Clone the Repository
     
-    python src/generate_data.py
-🔹 4️⃣ Train the Model
-Since the trained random_forest_model.pkl is too large to be uploaded, users must train the model locally:
-
-    python src/train_model.py
-
-This will generate the missing model file inside the models/ folder.
-
-🔹 5️⃣ Make Predictions
-After training, users can make predictions:
-
-    python src/predict.py
+      git clone https://github.com/SALVABEHNAM/House_Price_Prediction.git
+      cd House_Price_Prediction
+      
+  🔹 2️⃣ Install Dependencies
+    
+      pip install -r requirements.txt
+  
+  🔹 3️⃣ Generate Dataset
+      
+      python src/generate_data.py
+  🔹 4️⃣ Train the Model
+  Since the trained random_forest_model.pkl is too large to be uploaded, users must train the model locally:
+  
+      python src/train_model.py
+  
+  This will generate the missing model file inside the models/ folder.
+  
+  🔹 5️⃣ Make Predictions
+  After training, users can make predictions:
+  
+      python src/predict.py
 
 ## 🔥 Results & Performance
   - R² Score: 0.8
