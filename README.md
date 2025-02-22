@@ -1,7 +1,7 @@
 # 🏡 House Price Prediction using Machine Learning
 This project builds a **machine learning model** to predict house prices using **Random Forest & Linear Regression**.  
 We use the **California Housing Dataset** from Scikit-learn and evaluate performance with **MSE & R² Score**.
-
+ 
 ## 📌 Features
 - **Feature Engineering & Data Preprocessing**
 - **Trained Random Forest Model (R² = 0.8)**
